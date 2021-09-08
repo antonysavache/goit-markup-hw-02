@@ -1,50 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto:wght@400;500&display=swap");
-
-h3 {
-  white-space: nowrap;
-}
-
-h2 {
-  white-space: nowrap;
-}
-
-a {
-  white-space: nowrap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
+  color: black;
 }
 
-a {
-  font-family: "Roboto", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-#tel1 {
+.tel1 {
   position: absolute;
   width: 122px;
   height: 16px;
   left: 1263px;
   top: 32px;
-
+  text-decoration: none;
   color: #757575;
+  white-space: nowrap;
 }
 
-#email1 {
+.email1 {
   position: absolute;
   width: 135px;
   height: 16px;
   left: 1078px;
   top: 32px;
   color: black;
+  text-decoration: none;
 }
 
-#email1:hover {
-  color: blue;
+.email1:hover {
+  color: #2196f3;
+}
+
+.email1:focus {
+  color: #2196f3;
 }
 
 .colorstudio-top {
@@ -55,7 +42,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 136%;
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -71,14 +58,18 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 136%;
   letter-spacing: 0.02em;
-
+  text-decoration: none;
   color: #212121;
 }
 
 .studio:hover {
-  color: blue;
+  color: #2196f3;
+}
+
+.studio:focus {
+  color: #2196f3;
 }
 
 .portfolio {
@@ -91,13 +82,13 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 136%;
   letter-spacing: 0.02em;
-
+  text-decoration: none;
   color: #212121;
 }
 
-#contacts {
+.contacts {
   position: absolute;
   width: 68px;
   height: 16px;
@@ -107,9 +98,9 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 136%;
   letter-spacing: 0.02em;
-
+  text-decoration: none;
   color: #212121;
 }
 
@@ -124,15 +115,15 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 136%;
   /* identical to box height */
-
+  text-decoration: none;
   letter-spacing: 0.03em;
 
   color: #2196f3;
 }
 
-#line {
+.line {
   position: absolute;
   width: 1600px;
   height: 0px;
@@ -160,7 +151,7 @@ ul {
   background: #2f303a;
 }
 
-#texthello {
+.texthello {
   position: absolute;
   width: 696px;
   height: 120px;
@@ -171,7 +162,7 @@ ul {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 136%;
   /* or 136% */
 
   text-align: center;
@@ -181,7 +172,7 @@ ul {
   color: #ffffff;
 }
 
-button {
+.button-main {
   position: absolute;
   width: 200px;
   height: 50px;
@@ -191,6 +182,15 @@ button {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-main:hover {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 380px;
 }
 
 .button-txt {
@@ -206,7 +206,7 @@ button {
   font-size: 16px;
   line-height: 187%;
   /* identical to box height, or 187% */
-
+  white-space: nowrap;
   display: flex;
   align-items: center;
   text-align: center;
@@ -230,9 +230,9 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 136%;
   /* identical to box height */
-
+  white-space: nowrap;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -276,7 +276,7 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171%;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -324,7 +324,7 @@ button {
   top: 0px;
 }
 
-#whatarewedo {
+.whatarewedo {
   position: absolute;
   width: 376px;
   height: 42px;
@@ -335,14 +335,14 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 136%;
   text-align: center;
   letter-spacing: 0.03em;
-
+  white-space: nowrap;
   color: #212121;
 }
 
-#pic1 {
+.pic1 {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -350,7 +350,7 @@ button {
   top: 1111px;
 }
 
-#pic2 {
+.pic2 {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -358,7 +358,7 @@ button {
   top: 1111px;
 }
 
-#pic3 {
+.pic3 {
   position: absolute;
   width: 370px;
   height: 294px;
@@ -366,7 +366,7 @@ button {
   top: 1111px;
 }
 
-#ourteam {
+.ourteam {
   position: absolute;
   width: 264px;
   height: 42px;
@@ -377,14 +377,14 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 136%;
   text-align: center;
   letter-spacing: 0.03em;
-
+  white-space: nowrap;
   color: #212121;
 }
 
-#sectionourteam {
+.sectionourteam {
   position: absolute;
   width: 1600px;
   height: 928px;
@@ -437,9 +437,9 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   /* identical to box height */
-
+  white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -456,7 +456,7 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
@@ -490,9 +490,9 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   /* identical to box height */
-
+  white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -509,7 +509,7 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
@@ -543,9 +543,9 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   /* identical to box height */
-
+  white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -562,7 +562,7 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
@@ -596,9 +596,9 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   /* identical to box height */
-
+  white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -615,7 +615,7 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 136%;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
@@ -643,9 +643,9 @@ button {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 136%;
   /* identical to box height */
-
+  text-decoration: none;
   letter-spacing: 0.03em;
 
   color: #2196f3;
@@ -660,13 +660,13 @@ button {
   width: 231px;
   height: 21px;
   left: 215px;
-  top: 111px;
+  top: 91px;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171%;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -679,15 +679,15 @@ button {
   width: 231px;
   height: 21px;
   left: 215px;
-  top: 150px;
+  top: 141px;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171%;
   /* or 171% */
-
+  text-decoration: none;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -704,9 +704,9 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171%;
   /* or 171% */
-
+  text-decoration: none;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
