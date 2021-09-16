@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black-color);
+  text-decoration: none;
+}
+/*color for 2 pages*/
+
+:root {
+  --black-color: black;
+  --white-color: #ffffff;
+  --hover-color: #2196f3;
+  --h-color: #212121;
+  --bg-color: #2f303a;
+  --border-solid: #ececec;
+  --content-color: #757575;
+  --color-boxshadow: rgba(0, 0, 0, 0.15);
+  --our-team-bg: #f5f4fa;
+  --button-color: #2196f3;
+  --button-hover: #188ce8;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+  --box-shadow-one: rgba(0, 0, 0, 0.12);
+  --box-shadow-two: rgba(0, 0, 0, 0.14);
+  --box-shadow-three: rgba(0, 0, 0, 0.2);
+}
+
+/*head start*/
+.webstudio {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 136%;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--hover-color);
+}
+
+.tel1 {
+  color: var(--content-color);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.email1 {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.email1:hover,
+.email1:focus {
+  color: var(--hover-color);
+}
+
+.colorstudio-top {
+  color: var(--black-color);
+}
+
+.studio {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136%;
+  letter-spacing: 0.02em;
+
+  color: var(--h-color);
+}
+
+.studio:hover,
+.studio:focus {
+  color: var(--hover-color);
+}
+
+.portfolio {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136%;
+  letter-spacing: 0.02em;
+
+  color: var(--h-color);
+}
+
+.contacts {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136%;
+  letter-spacing: 0.02em;
+  color: var(--h-color);
+}
+
+.line {
+  border: 1px solid var(--border-solid);
+}
+/*head end*/
+
+/*marks for list*/
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+#bg {
+  background: var(--bg-color);
+}
+
+/* i think it will be useful
+.one {
+}
+
+.two {
+}
+
+.three {
+}
+
+.four {
+}
+*/
+
+.content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--content-color);
+}
+
+/* i think it will be useful
+.f1 {
+}
+
+.f2 {
+}
+
+.f3 {
+}
+
+.f4 {
+}
+
+.whatarewedo-sec {
+}
+
+.pic1 {
+}
+
+.pic2 {
+}
+
+.pic3 {
+}
+*/
+
+/* footer start*/
+.lowwebstudio {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 136%;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--hover-color);
+}
+
+.webstudio-low {
+  color: white;
+}
+
+.addr-prop {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--white-color);
+}
+
+.mail-prop {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--footer-contacts);
+}
+
+.tel-prop {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: var(--footer-contacts);
+}
+/* footer end*/

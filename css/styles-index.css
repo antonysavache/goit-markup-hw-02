@@ -1,0 +1,250 @@
+:root {
+  --black-color: black;
+  --white-color: #ffffff;
+  --hover-color: #2196f3;
+  --h-color: #212121;
+  --bg-color: #2f303a;
+  --border-solid: #ececec;
+  --content-color: #757575;
+  --color-boxshadow: rgba(0, 0, 0, 0.15);
+  --our-team-bg: #f5f4fa;
+  --button-color: #2196f3;
+  --button-hover: #188ce8;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+  --box-shadow-one: rgba(0, 0, 0, 0.12);
+  --box-shadow-two: rgba(0, 0, 0, 0.14);
+  --box-shadow-three: rgba(0, 0, 0, 0.2);
+}
+
+.texthello {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.button-main {
+  background: var(--button-color);
+  box-shadow: 0px 4px 4px var(--color-boxshadow);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 187%;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0px;
+  color: var(--white-color);
+}
+
+.button-main:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.firstsection {
+  background-color: var(--bg-color);
+}
+
+.feature {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 136%;
+  /* identical to box height */
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--h-color);
+}
+
+.whatarewedo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  color: var(--h-color);
+}
+
+.ourteam {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  color: var(--h-color);
+}
+
+.sectionourteam {
+  background: var(--our-team-bg);
+}
+
+.igor {
+  background: var(--white-color);
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px var(--box-shadow-one),
+    0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.igor-dem {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  /* identical to box height */
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--h-color);
+}
+
+.igor-pd {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 136%;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--content-color);
+}
+
+.olga {
+  background: var(--white-color);
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px var(--box-shadow-one),
+    0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.olga-rep {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  /* identical to box height */
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--h-color);
+}
+
+.olga-fd {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 136%;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--content-color);
+}
+
+.kolya {
+  background: var(--white-color);
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px var(--box-shadow-one),
+    0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.kolya-tar {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  /* identical to box height */
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--h-color);
+}
+
+.kolya-mar {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 136%;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--content-color);
+}
+
+.michael {
+  background: var(--white-color);
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px var(--box-shadow-one),
+    0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.michael-erm {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  /* identical to box height */
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--h-color);
+}
+
+.michael-uid {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 136%;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--content-color);
+}
+
+.podval {
+  background-color: var(--bg-color);
+}
