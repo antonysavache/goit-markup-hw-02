@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--black-color);
-  text-decoration: none;
-}
-/*color for 2 pages*/
-
 :root {
   --black-color: black;
   --white-color: #ffffff;
@@ -24,6 +17,13 @@ body {
   --box-shadow-two: rgba(0, 0, 0, 0.14);
   --box-shadow-three: rgba(0, 0, 0, 0.2);
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black-color);
+  text-decoration: none;
+}
+/*color for 2 pages*/
 
 /*head start*/
 .webstudio {
@@ -44,11 +44,13 @@ body {
   color: var(--content-color);
   white-space: nowrap;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .email1 {
-  color: var(--black-color);
+  color: var(--content-color);
   text-decoration: none;
+  font-size: 14px;
 }
 
 .email1:hover,
@@ -56,45 +58,40 @@ body {
   color: var(--hover-color);
 }
 
+.tel1:hover,
+.tel1:focus {
+  color: var(--hover-color);
+}
+
 .colorstudio-top {
   color: var(--black-color);
 }
 
-.studio {
+.head-button {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   line-height: 136%;
   letter-spacing: 0.02em;
-
+  font-size: 14px;
   color: var(--h-color);
 }
 
-.studio:hover,
-.studio:focus {
+.head-button-active {
   color: var(--hover-color);
-}
-
-.portfolio {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   line-height: 136%;
   letter-spacing: 0.02em;
-
-  color: var(--h-color);
+  font-size: 14px;
 }
 
-.contacts {
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 136%;
-  letter-spacing: 0.02em;
-  color: var(--h-color);
+.head-button:hover,
+.head-button:focus {
+  color: var(--hover-color);
 }
 
 .line {
@@ -224,3 +221,13 @@ ul {
   color: var(--footer-contacts);
 }
 /* footer end*/
+
+.tel-prop:hover,
+.tel-prop:focus {
+  color: var(--hover-color);
+}
+
+.mail-prop:hover,
+.mail-prop:focus {
+  color: var(--hover-color);
+}

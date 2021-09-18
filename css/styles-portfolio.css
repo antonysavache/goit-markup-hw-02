@@ -1,20 +1,3 @@
-:root {
-  --black-color: black;
-  --white-color: #ffffff;
-  --hover-color: #2196f3;
-  --h-color: #212121;
-  --bg-color: #2f303a;
-  --border-solid: #ececec;
-  --content-color: #757575;
-  --color-boxshadow: rgba(0, 0, 0, 0.15);
-  --our-team-bg: #f5f4fa;
-  --button-color: #188ce8;
-  --footer-contacts: rgba(255, 255, 255, 0.6);
-  --box-shadow-one: rgba(0, 0, 0, 0.12);
-  --box-shadow-two: rgba(0, 0, 0, 0.14);
-  --box-shadow-three: rgba(0, 0, 0, 0.2);
-}
-
 .button-all {
   background: var(--our-team-bg);
   border-radius: 4px;
